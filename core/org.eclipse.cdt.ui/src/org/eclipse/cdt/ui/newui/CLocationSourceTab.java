@@ -63,4 +63,8 @@ public class CLocationSourceTab extends CLocationTab {
 		} catch (CoreException e) {
 		}
 	}
+	@Override
+	public boolean canSupportMultiCfg() {
+		return true;
+	}
 }
